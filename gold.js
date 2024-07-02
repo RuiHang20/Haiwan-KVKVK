@@ -278,10 +278,10 @@ gameHelp.onclick = function () {
     cursor.play();
     var name = document.getElementById('name');
     gameWords.style.lineHeight = '100px';
-    gameWords.innerHTML = `
+gameWords.innerHTML = `
     <h2>TUTORIAL</h2>
     <iframe width="640" height="360" 
-            src="https://www.youtube.com/embed/pfRupaSdtDQ" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
             title="YouTube video player" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -289,6 +289,7 @@ gameHelp.onclick = function () {
     </iframe>
     <div id="back" style="position: relative;">Balik</div>
 `;
+
 <!--<video src="video.mp4" controls width="640" height="360"></video> -->
     gameWords.style.display = 'block';
     gameWords.style.opacity = 1;
